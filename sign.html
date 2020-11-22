@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #332424;
+  height: 80vh;
+}
+.brandname {
+  font-size: 24px;
+  margin:2rem;
+  color: lightsalmon;
+}
+body{
+    background-color: #332424;
+}
+.form{
+    
+    padding-top: 50px;
+    padding-left:10px; padding-right:10px;
+    background:white;
+    height:350px;
+    width:350px;
+    box-shadow: 0 0 20 rgba(255, 255, 255, 0.5);
+    z-index: 2;
+    margin:auto;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+}
+input{
+    width: 32vh;
+    border: solid black 1px;
+    margin:auto;
+    padding:8px;
+}
+input:hover{
+    border: solid blue 2px;
+}
+#if-you-have{
+    color: lightcoral;
+    
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    color:lightsalmon;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="brandname">
+                Brandname
+            </div>
+    </nav>
+    <div class="form">
+        <form>
+            <input type="Name" class="form-control" placeholder="FirstName">
+           <br> <input type="Name" class="form-control" placeholder="LastName">
+            <br><input type="Email" class="form-control" placeholder="Email">
+           <br> <input type="password" class="form-control" placeholder="Password">
+           <br> 
+           <br><input type="submit">
+        </form>
+    </div>
+    <center>
+   
+        <br><label id="if-you-have"> Do you have one </label> <a href="login.html"> Login </a>
+    </center>
+    </div>
+</body>
+</html>

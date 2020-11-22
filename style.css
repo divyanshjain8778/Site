@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #332424;
+  height: 80vh;
+}
+.brandname {
+  font-size: 24px;
+  color: lightsalmon;
+}
+nav {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.signin,
+.login {
+  background: none;
+  margin: 18px 10px;
+  text-decoration: none;
+  border: none;
+  color: white;
+}
+.signin:hover,
+.login:hover {
+  background: none;
+  margin: 18px 10px;
+  border: none;
+  color: lightsalmon;
+}
+.infocard {
+  height: 400px;
+  width: 400px;
+  background: white;
+  text-align: center;
+
+  margin: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
+}
+.con {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  list-style: none;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .con {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.imageme {
+  margin: 2rem;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-image: url("https://img.icons8.com/bubbles/2x/guest-male.png");
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  background-color: grey;
+}
+
+.anrow {
+  text-align: center;
+}
+footer {
+  margin-top: 2rem;
+  font-size: 20px;
+  text-align: center;
+  color: lightsalmon;
+}
